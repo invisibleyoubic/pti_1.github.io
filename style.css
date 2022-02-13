@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5ch;
+}
+
+.header img{
+    width: 7%;
+    height: 7%;
+    margin-block-start: 1%;
+    margin-block-end: 1%;
+}
+
+.header .name{
+    color: white;
+    margin-inline-start: 15%;
+    font-family: sans-serif;
+}
+
+.navigation{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* height: 2cm; */
+    background-color: white;
+    border-radius: 5ch;
+}
+
+.navigation div{
+    margin-inline-end: 1%;
+    margin-inline-start: 1%;
+    font-family: sans-serif;
+    color: black;
+    margin-block-end: 2%;
+    margin-block-start: 2%;
+}
+
+.content{
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5ch;
+    font-family: sans-serif;
+}
+
+.content .wrapper{
+    display: flex;
+    height: 30%;
+    width: 50%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5ch;
+
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+
+    flex-direction: column;
+}
+
+.content .wrapper .inner{
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content .wrapper .inner span{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.content .text{
+    width: 90%;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+}
+
+.head{
+    margin-block-start: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head img{
+    width: 7%;
+    height: 7%;
+    margin-inline-end: 1%;
+}
+
+h2{
+    text-align: center;
+}
+
+.footer{
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 5ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer div{
+    margin-block-end: 1%;
+    margin-block-start: 1%;
+}
+
+.footer .copirite{
+    justify-content: center;
+}
+
+.index-navigation img{
+    min-width: 5%;
+    min-height: 5%;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.index-navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.index-navigation div{
+    margin-block-end: 3%;
+    margin-block-start: 3%;
+    margin-inline-start: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.index-navigation div a{
+    margin-inline-start: 3%;
+}
+
+.footer .social img{
+    width: 5%;
+    height: 5%;
+}
+
+.active{
+    background-color: darkgray;
+    width: 7%;
+    text-align: center;
+    border-radius: 1ch;
+
+}
